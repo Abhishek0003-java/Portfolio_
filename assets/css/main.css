@@ -334,16 +334,9 @@ h6 {
 
   .navmenu ul {
     display: flex;
-    position: static;
-    flex-direction: row;
-    opacity: 1;
-    transform: none;
-    list-style: none;
-    gap: 5px;
-    background: transparent;
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
     /* display: none;
     list-style: none;
     position: absolute;

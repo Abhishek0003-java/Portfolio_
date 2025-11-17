@@ -320,10 +320,11 @@ h6 {
 /* ============================= */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: var(--nav-color);
+    /* color: var(--nav-color);
     font-size: 28px;
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; */
+    display: none;
   }
 
   .navmenu {
@@ -332,7 +333,18 @@ h6 {
   }
 
   .navmenu ul {
-    display: none;
+    display: flex;
+    position: static;
+    flex-direction: row;
+    opacity: 1;
+    transform: none;
+    list-style: none;
+    gap: 25px;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    /* display: none;
     list-style: none;
     position: absolute;
     inset: 60px 20px 20px 20px;
@@ -345,7 +357,7 @@ h6 {
     overflow-y: auto;
     transform: translateY(-20px);
     opacity: 0;
-    transition: all 0.4s ease;
+    transition: all 0.4s ease; */
   }
 
   /* Animate menu when active */

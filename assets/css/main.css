@@ -199,7 +199,7 @@ h6 {
 }
 
 .header .header-social-links a {
-  display:flex;
+  display:inline-flex;
   align-items: center;
   justify-content: center;
   width: 35px;
@@ -247,7 +247,13 @@ h6 {
     font-size: 16px;
   }
 }
+@media (max-width: 768px) {
 
+ social-links {
+    justify-content: center ! important;
+    text-align: center ! important;
+  }
+}
 
 /* Global Header on Scroll
 ------------------------------*/

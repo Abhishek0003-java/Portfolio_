@@ -236,12 +236,19 @@ h6 {
 }
 
 @media (max-width: 576px) {
+
+  .header .header-social-links {
+    justify-content: center;
+    gap: 12px;
+  }
   .header .header-social-links a {
     width: 34px;
     height: 34px;
     font-size: 16px;
   }
 }
+
+
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
@@ -1099,7 +1106,7 @@ section,
   text-align: left;
 }
 .about .profile-figure .profile-photo {
-  height: 350px; /* set desired height */
+  height: 450px; /* set desired height */
   width: auto; /* adjust width automatically */
   object-fit: cover; /* crops nicely if too tall */
   border-radius: 18px;

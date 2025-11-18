@@ -245,6 +245,7 @@ h6 {
     width: 34px;
     height: 34px;
     font-size: 16px;
+    justify-content: center;
   }
 }
 

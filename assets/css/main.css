@@ -199,7 +199,7 @@ h6 {
 }
 
 .header .header-social-links a {
-  display: inline-flex;
+  display:flex;
   align-items: center;
   justify-content: center;
   width: 35px;
@@ -245,7 +245,6 @@ h6 {
     width: 34px;
     height: 34px;
     font-size: 16px;
-    justify-content: center;
   }
 }
 
